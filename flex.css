@@ -1,0 +1,155 @@
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: #73dab2;
+}
+
+.flex {
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+.flexOne {
+    display: flex;
+    gap:5px;
+}
+
+.flexTwo {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.flexThree {
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 2px;
+    justify-self:flex-start;
+}
+
+.flexFour {
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    gap: 5px;
+}
+
+.flexFour > div {
+    width: 350px;
+    background-color:#3d8b6d;
+}
+
+.flexFive {
+    display: flex;
+    width: 350px;
+    gap: 2px;
+}
+
+.flexFive >.item {
+    background-color: #0b6643;
+    height: 100px;
+    width: 100px;
+}
+
+.flexFive >#grow {
+    flex-grow: 2;
+}
+
+.flexSix {
+    display: flex;
+    height: 400px;
+    width: 500px;
+    background-color: #f1f1f1;
+    flex-direction: column;
+}
+
+.flexSix > .one, .two, .three {
+    display:flex;
+}
+
+.flexSix > .one {
+    justify-content: space-around;
+}
+
+.flexSix > .two {
+    justify-content: space-between;
+    margin: 50px 0;
+    background-color: #d6d6d6;
+}
+
+.flexSix > .three {
+    justify-content: space-evenly;
+}
+
+.flexSeven {
+
+    display: flex;
+    height: 400px;
+    width: 500px;
+    background-color: #f1f1f1;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flexSeven >.one {
+    display: flex;
+    flex-direction: column;    
+    justify-content: center;
+    background-color: #d6d6d6;
+}
+
+.flexSeven >.two {
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-end;
+    background-color: #d6d6d6;
+}
+
+.flexSeven >.three {
+    display: flex;
+    flex-direction: column;    
+    justify-content: flex-start;
+    background-color: #d6d6d6;
+}
+
+.flexSeven >.four {
+    display: flex;
+    flex-direction: column;    
+    justify-content: space-between;
+    background-color: #d6d6d6;
+}
+
+.flexEight {
+    display: flex;
+    height: 400px;
+    width: 300px;
+    background-color: #eeeeee;
+}
+
+.flexEight >.one {
+    display: flex;
+    align-items: center;
+}
+
+.flexEight >.two {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flexEight >.three {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flexNine {
+    display: flex;
+    height: 250px;
+    width: 450px;
+    background-color: #eeeeee;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.flexNine >#special {
+    align-self: flex-end;
+}
